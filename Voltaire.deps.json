@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "afc6d4599eda1ec958528fef153c8b5bbfc7ce6e"
+    "signature": "3623084671bbcf33107e80393910bb21d76e38db"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,7 @@
       "Voltaire/1.0.0": {
         "dependencies": {
           "Discord.Net": "1.0.2",
+          "DiscordBotsList.Api": "1.1.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
           "Microsoft.EntityFrameworkCore.Tools": "2.1.1",
           "Microsoft.Extensions.Configuration": "2.1.1",
@@ -83,6 +84,14 @@
         },
         "runtime": {
           "lib/netstandard1.3/Discord.Net.WebSocket.dll": {}
+        }
+      },
+      "DiscordBotsList.Api/1.1.0": {
+        "dependencies": {
+          "Miki.Rest": "1.2.2"
+        },
+        "runtime": {
+          "lib/netstandard1.6/DiscordBotsList.Api.dll": {}
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -295,6 +304,14 @@
             "rid": "win",
             "assetType": "runtime"
           }
+        }
+      },
+      "Miki.Rest/1.2.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Miki.Rest.dll": {}
         }
       },
       "Newtonsoft.Json/11.0.2": {
@@ -1266,6 +1283,13 @@
       "path": "discord.net.websocket/1.0.2",
       "hashPath": "discord.net.websocket.1.0.2.nupkg.sha512"
     },
+    "DiscordBotsList.Api/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8KDmuPc4vBB+z459GzeqNZGMA8t7pOQIB65aiCyFjI2iY8CFHs0yqTFS3biVbJgzBhEFmikM3eQEE22Q+pwS1w==",
+      "path": "discordbotslist.api/1.1.0",
+      "hashPath": "discordbotslist.api.1.1.0.nupkg.sha512"
+    },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
       "serviceable": true,
@@ -1454,6 +1478,13 @@
       "sha512": "sha512-vduxuHEqRgRrTE8wYG8Wxj/+6wwzddOmZzjKZx6rFMc/91aUBxI5etAFYxesoNaIja5NpgSTcnk6cN8BeYXf9A==",
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
+    },
+    "Miki.Rest/1.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iMMHZCvkVRyQdDallCs/1h7LNThit+QlFZRffAHpF699Kb1zjwbjRyceMJ6nfyrgxosDXU1TVWh6qpoB2DO6VA==",
+      "path": "miki.rest/1.2.2",
+      "hashPath": "miki.rest.1.2.2.nupkg.sha512"
     },
     "Newtonsoft.Json/11.0.2": {
       "type": "package",
