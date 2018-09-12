@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "60239f9b035dc73b8c951a72f243e57ace400459"
+    "signature": "9ab09bd048ece08befe044ea5aa3a51679032d9d"
   },
   "compilationOptions": {},
   "targets": {
@@ -14,7 +14,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
           "Microsoft.EntityFrameworkCore.Tools": "2.1.1",
           "Microsoft.Extensions.Configuration": "2.1.1",
-          "Microsoft.Extensions.Configuration.Json": "2.1.1"
+          "Microsoft.Extensions.Configuration.Json": "2.1.1",
+          "Rijndael256.Core": "3.2.5"
         },
         "runtime": {
           "Voltaire.dll": {}
@@ -341,6 +342,11 @@
         },
         "runtime": {
           "lib/netstandard1.0/Remotion.Linq.dll": {}
+        }
+      },
+      "Rijndael256.Core/3.2.5": {
+        "runtime": {
+          "lib/netstandard1.3/Rijndael256.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -1512,6 +1518,13 @@
       "sha512": "sha512-fK/76UmpC0FXBlGDFVPLJHQlDLYnGC+XY3eoDgCgbtrhi0vzbXDQ3n/IYHhqSKqXQfGw/u04A1drWs7rFVkRjw==",
       "path": "remotion.linq/2.2.0",
       "hashPath": "remotion.linq.2.2.0.nupkg.sha512"
+    },
+    "Rijndael256.Core/3.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sTKmhUVOs3Bv/rccTj6VaHAhqAquCriH5rQAIUMsvk59CYgWhfNIJuMRQcgw5r2byXsn2FH9amCskJ08OqzebA==",
+      "path": "rijndael256.core/3.2.5",
+      "hashPath": "rijndael256.core.3.2.5.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
