@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "fd4cbb0328d0e0711ac11a2ee04a297bbae4659f"
+    "signature": "8d1ab706e64f60cf8fc6f76245d156072cdf858c"
   },
   "compilationOptions": {},
   "targets": {
@@ -15,7 +15,8 @@
           "Microsoft.EntityFrameworkCore.Tools": "2.1.1",
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.Configuration.Json": "2.1.1",
-          "Rijndael256.Core": "3.2.5"
+          "Rijndael256.Core": "3.2.5",
+          "Stripe.net": "24.4.1"
         },
         "runtime": {
           "Voltaire.dll": {}
@@ -359,6 +360,15 @@
             "rid": "win-x86",
             "assetType": "native"
           }
+        }
+      },
+      "Stripe.net/24.4.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "System.Collections.Immutable": "1.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Stripe.net.dll": {}
         }
       },
       "System.Collections/4.0.11": {
@@ -922,6 +932,13 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "Stripe.net/24.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vUrP7ScV+BgTOfEZ1IcryH3YGR2L7s2BMpQa7H+YTdFx2+864rLEljsR8zVRFaKOoayTZ3HLnmlDxQSZR1ZX+Q==",
+      "path": "stripe.net/24.4.1",
+      "hashPath": "stripe.net.24.4.1.nupkg.sha512"
     },
     "System.Collections/4.0.11": {
       "type": "package",
