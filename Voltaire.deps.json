@@ -9,7 +9,8 @@
       "Voltaire/1.0.0": {
         "dependencies": {
           "CodenameGenerator": "1.2.43",
-          "Discord.Net": "2.3.0-dev-20201125.2",
+          "Discord.NetFoxite.Commands": "2.3.2-foxite-dev",
+          "Discord.NetFoxite.WebSocket": "2.3.2-foxite-dev",
           "DiscordBotsList.Api": "1.3.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.10",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.10",
@@ -30,71 +31,50 @@
           }
         }
       },
-      "Discord.Net/2.3.0-dev-20201125.2": {
+      "Discord.NetFoxite.Commands/2.3.2-foxite-dev": {
         "dependencies": {
-          "Discord.Net.Commands": "2.3.0-dev-20201125.2",
-          "Discord.Net.Core": "2.3.0-dev-20201125.2",
-          "Discord.Net.Rest": "2.3.0-dev-20201125.2",
-          "Discord.Net.WebSocket": "2.3.0-dev-20201125.2",
-          "Discord.Net.Webhook": "2.3.0-dev-20201125.2"
-        }
-      },
-      "Discord.Net.Commands/2.3.0-dev-20201125.2": {
-        "dependencies": {
-          "Discord.Net.Core": "2.3.0-dev-20201125.2"
+          "Discord.NetFoxite.Core": "2.3.2-foxite-dev"
         },
         "runtime": {
-          "lib/netstandard2.0/Discord.Net.Commands.dll": {
-            "assemblyVersion": "2.3.0.0",
-            "fileVersion": "2.3.0.0"
+          "lib/netstandard2.0/Discord.NetFoxite.Commands.dll": {
+            "assemblyVersion": "2.3.2.0",
+            "fileVersion": "2.3.2.0"
           }
         }
       },
-      "Discord.Net.Core/2.3.0-dev-20201125.2": {
+      "Discord.NetFoxite.Core/2.3.2-foxite-dev": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
           "System.Collections.Immutable": "1.7.1",
           "System.Interactive.Async": "4.0.0"
         },
         "runtime": {
-          "lib/netstandard2.0/Discord.Net.Core.dll": {
-            "assemblyVersion": "2.3.0.0",
-            "fileVersion": "2.3.0.0"
+          "lib/netstandard2.0/Discord.NetFoxite.Core.dll": {
+            "assemblyVersion": "2.3.2.0",
+            "fileVersion": "2.3.2.0"
           }
         }
       },
-      "Discord.Net.Rest/2.3.0-dev-20201125.2": {
+      "Discord.NetFoxite.Rest/2.3.2-foxite-dev": {
         "dependencies": {
-          "Discord.Net.Core": "2.3.0-dev-20201125.2"
+          "Discord.NetFoxite.Core": "2.3.2-foxite-dev"
         },
         "runtime": {
-          "lib/netstandard2.0/Discord.Net.Rest.dll": {
-            "assemblyVersion": "2.3.0.0",
-            "fileVersion": "2.3.0.0"
+          "lib/netstandard2.0/Discord.NetFoxite.Rest.dll": {
+            "assemblyVersion": "2.3.2.0",
+            "fileVersion": "2.3.2.0"
           }
         }
       },
-      "Discord.Net.Webhook/2.3.0-dev-20201125.2": {
+      "Discord.NetFoxite.WebSocket/2.3.2-foxite-dev": {
         "dependencies": {
-          "Discord.Net.Core": "2.3.0-dev-20201125.2",
-          "Discord.Net.Rest": "2.3.0-dev-20201125.2"
+          "Discord.NetFoxite.Core": "2.3.2-foxite-dev",
+          "Discord.NetFoxite.Rest": "2.3.2-foxite-dev"
         },
         "runtime": {
-          "lib/netstandard2.0/Discord.Net.Webhook.dll": {
-            "assemblyVersion": "2.3.0.0",
-            "fileVersion": "2.3.0.0"
-          }
-        }
-      },
-      "Discord.Net.WebSocket/2.3.0-dev-20201125.2": {
-        "dependencies": {
-          "Discord.Net.Core": "2.3.0-dev-20201125.2",
-          "Discord.Net.Rest": "2.3.0-dev-20201125.2"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Discord.Net.WebSocket.dll": {
-            "assemblyVersion": "2.3.0.0",
-            "fileVersion": "2.3.0.0"
+          "lib/netstandard2.0/Discord.NetFoxite.WebSocket.dll": {
+            "assemblyVersion": "2.3.2.0",
+            "fileVersion": "2.3.2.0"
           }
         }
       },
@@ -1360,47 +1340,33 @@
       "path": "codenamegenerator/1.2.43",
       "hashPath": "codenamegenerator.1.2.43.nupkg.sha512"
     },
-    "Discord.Net/2.3.0-dev-20201125.2": {
+    "Discord.NetFoxite.Commands/2.3.2-foxite-dev": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-JumHFS7YbWNUsC46lNCyTX1vbmsJnHwe4UJVl9dQ618YmNO0zpcdgtoTWRZlHwVr7iD7twPOzOQxDbf8MDJo6g==",
-      "path": "discord.net/2.3.0-dev-20201125.2",
-      "hashPath": "discord.net.2.3.0-dev-20201125.2.nupkg.sha512"
+      "sha512": "sha512-GX3YJMl7nwUqlVsNVliwJFFiEI7peFBcIiToNbZDs7yN8mred1hemzc3wfBFq3S49h4D2mrw3vJLQkdfW8GrFg==",
+      "path": "discord.netfoxite.commands/2.3.2-foxite-dev",
+      "hashPath": "discord.netfoxite.commands.2.3.2-foxite-dev.nupkg.sha512"
     },
-    "Discord.Net.Commands/2.3.0-dev-20201125.2": {
+    "Discord.NetFoxite.Core/2.3.2-foxite-dev": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UJOYLmFepx5vcNlMP4IQB++F65Ursyt0p6smR9W7ElPabm6HSO7DAkD+OC/Q/PUGZpG3sOVeLlPqZBeX/8vVjQ==",
-      "path": "discord.net.commands/2.3.0-dev-20201125.2",
-      "hashPath": "discord.net.commands.2.3.0-dev-20201125.2.nupkg.sha512"
+      "sha512": "sha512-7EDleMpE+yu10VCRrIxXo7bfoTXd5wFpsLMU5XBAcZ8HFBddQMOQbZ+F3J53SBaEakob9zYNA7g5qDQ0OSKtYg==",
+      "path": "discord.netfoxite.core/2.3.2-foxite-dev",
+      "hashPath": "discord.netfoxite.core.2.3.2-foxite-dev.nupkg.sha512"
     },
-    "Discord.Net.Core/2.3.0-dev-20201125.2": {
+    "Discord.NetFoxite.Rest/2.3.2-foxite-dev": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-v8G+mbG9ZT0ovVYnNM3cjGJnQZwb2mIzit57ExRkI9bKxIilXF+aZdbLO/xabhmxLBMOKcLQlYX64DCJzPUylA==",
-      "path": "discord.net.core/2.3.0-dev-20201125.2",
-      "hashPath": "discord.net.core.2.3.0-dev-20201125.2.nupkg.sha512"
+      "sha512": "sha512-wySZuhVJECftcaDE5jnSI2bzRFm9Rew4Sk6RrCENen3ARh/V8Ud2SqRx1M8uleqoKPl85ApHEB1nBrxLLxB+jQ==",
+      "path": "discord.netfoxite.rest/2.3.2-foxite-dev",
+      "hashPath": "discord.netfoxite.rest.2.3.2-foxite-dev.nupkg.sha512"
     },
-    "Discord.Net.Rest/2.3.0-dev-20201125.2": {
+    "Discord.NetFoxite.WebSocket/2.3.2-foxite-dev": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Feay+P3wtQokmFxY5BAj4hJdcwpJ448qVQvC3xTNXUGs8e60q/weMcikFXcmOlAgkR0F5hxdhmfHSoF0luhmNg==",
-      "path": "discord.net.rest/2.3.0-dev-20201125.2",
-      "hashPath": "discord.net.rest.2.3.0-dev-20201125.2.nupkg.sha512"
-    },
-    "Discord.Net.Webhook/2.3.0-dev-20201125.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-dtisEVfA74iC2upkUI5D6VHOh5qIgKh6LCIcFIvWO/7zQEr4LwVlJk7B7dgN7pqB0sybvoQ+vhauXczSITdL8w==",
-      "path": "discord.net.webhook/2.3.0-dev-20201125.2",
-      "hashPath": "discord.net.webhook.2.3.0-dev-20201125.2.nupkg.sha512"
-    },
-    "Discord.Net.WebSocket/2.3.0-dev-20201125.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-nsQvpnEV8MfzqvCb1UOulsh1/BIbG+cnIxvO4oSb03WybMbQA9UST2ObZMzmyuyXD9vBRL9K6db6BCNuW1h0ow==",
-      "path": "discord.net.websocket/2.3.0-dev-20201125.2",
-      "hashPath": "discord.net.websocket.2.3.0-dev-20201125.2.nupkg.sha512"
+      "sha512": "sha512-zNf/irQQDSWKlLCoqKLB2AvLAxat5BQPP4ceSV5KL4CCABNcyP+xkhZUCR/WBe26AorIVSZDEg+AiesHqQHHEw==",
+      "path": "discord.netfoxite.websocket/2.3.2-foxite-dev",
+      "hashPath": "discord.netfoxite.websocket.2.3.2-foxite-dev.nupkg.sha512"
     },
     "DiscordBotsList.Api/1.3.0": {
       "type": "package",
